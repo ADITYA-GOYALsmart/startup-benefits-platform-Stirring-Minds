@@ -65,10 +65,9 @@ A full-stack web application built with Next.js that provides exclusive SaaS dea
    ```
 
 3. **Environment Setup**
-   Create a `.env.local` file:
+   Create a `.env` file:
    ```env
-   MONGODB_URI=mongodb://localhost:27017/startup-benefits
-   JWT_SECRET=your-super-secret-jwt-key
+   MONGODB_URI=mongodb+srv://adityagoyalcs22_db_user:BpLFicIP6VGUEoqS@cluster0.9ulkmg2.mongodb.net/?appName=Cluster0
    ```
 
 4. **Start MongoDB**
@@ -194,33 +193,9 @@ src/
 - **Payment Processing**: For premium features
 - **Analytics**: User behavior tracking
 
-### Environment Variables
-```env
-MONGODB_URI=your-production-mongodb-uri
-JWT_SECRET=your-production-jwt-secret
-NEXT_PUBLIC_APP_URL=https://yourdomain.com
-```
 
 ### Deployment
 1. Build the application: `npm run build`
 2. Start production server: `npm start`
 3. Configure reverse proxy (nginx) for API routes
 4. Set up MongoDB replica set for production
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
-## 🙏 Acknowledgments
-
-- Built as a student-level full-stack project
-- Uses modern Next.js patterns and best practices
-- Designed for learning and demonstration purposes
