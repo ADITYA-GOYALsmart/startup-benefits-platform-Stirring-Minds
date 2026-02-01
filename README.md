@@ -67,7 +67,7 @@ A full-stack web application built with Next.js that provides exclusive SaaS dea
 3. **Environment Setup**
    Create a `.env` file:
    ```env
-   MONGODB_URI=mongodb+srv://adityagoyalcs22_db_user:BpLFicIP6VGUEoqS@cluster0.9ulkmg2.mongodb.net/?appName=Cluster0
+   env file is also included in github
    ```
 
 4. **Start MongoDB**
